@@ -1,6 +1,6 @@
 ﻿body {
 }
 
-h1 {
-    position : center;
+h1, h2 {
+    text-align : center;
 }
