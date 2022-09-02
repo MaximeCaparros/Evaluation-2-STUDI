@@ -1,6 +1,83 @@
 ﻿body {
+    color: black;
+   ;
 }
+
+nav {
+    border:solid;
+    border-width:thin;
+    border-color: black
+
+    
+}
+
 
 h1, h2 {
     text-align : center;
+}
+p{
+    font-size: large;
+    color: rgb(10, 10, 10, 0.70)
+}
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+footer {
+    background-color: rgb(43, 43, 43, 0.90)
+}
+
+.bgV {
+    background-color: rgb(167, 167, 167, 0.45);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height:36px;
+}
+
+.nomarginB {
+    margin-bottom: 0px;
+}
+
+.cardM {
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(237, 237, 237, 0.86);
+    line-height: 26px;
+    font-size: large;
+}
+
+.marginB{
+    margin-bottom:2%;
+}
+
+.backgroundHead {
+    background-repeat: no-repeat;
+    background-image: url('../image/mckenzie-river.jpg') ;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity:0.8;
+
+}
+@media (max-width:575px) {
+    .display-4 {
+        font-size: 1.5rem;
+    }
+
+    .day h5 {
+        background-color: #f8f9fa;
+        padding: 3px 5px 5px;
+        margin: -8px -8px 8px -8px;
+    }
+
+    .date {
+        padding-left: 4px;
+    }
+}
+
+@media (min-width: 576px) {
+    .day {
+        height: 14.2857vw;
+    }
 }
